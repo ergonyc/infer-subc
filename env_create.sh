@@ -10,13 +10,15 @@ pip install aicssegmentation #downgrades napari and scikitlearn
 
 pip install napari-aicsimageio  
 
-<<<<<<< HEAD
-pip install infer_subc
-pip install napari-infer-subc  
+# pip install infer_subc
+# pip install napari-infer-subc  
 
 # pip install opencv-python
 # pip install opencv-contrib-python
-pip install opencv-python-headless  # seems to already be installed
+#pip install opencv-python-headless  # seems to already be installed
 
-=======
->>>>>>> parent of 08c72e0 (fix 09_lipid body nb)
+
+# these are missing from some Ubuntu distros
+# sudo apt-get install libegl1 libdbus-1-3 libxkbcommon-x11-0 \
+#     libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0 \
+#     libxcb-render-util0 libxcb-xinerama0 libxcb-xinput0 libxcb-xfixes0

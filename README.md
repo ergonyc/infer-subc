@@ -41,8 +41,7 @@ To measure shape, position, size, and interaction of eight organelles/cellular c
 - Infer subcellular objects notebooks 
   -  ### 0. [pipeline Overview/setup  ](./notebooks/00_pipeline_setup.ipynb)
   -  ### 1. [infer NUCLEI ](./notebooks/01_infer_nuclei.ipynb) 
-  -  ### 2. [Infer SOMA](./notebooks/03_infer_soma.ipynb)
-  -  ### 3. [Infer CYTOSOL](./notebooks/03_infer_cytosol.ipynb)
+
   -  ### 4. [Infer LYSOSOMES](./notebooks/04_infer_lysosome.ipynb)
   -  ### 5. [Infer MITOCHONDRIA](./notebooks/05_infer_mitochondria.ipynb)
   -  ### 6. [Infer GOLGI complex](./notebooks/06_infer_golgi.ipynb)
@@ -51,8 +50,9 @@ To measure shape, position, size, and interaction of eight organelles/cellular c
 
 ## WIP
 - Infer subcellular objects:
+  -  ### 2. [Infer SOMA](./notebooks/03_infer_soma.ipynb)
+  -  ### 3. [Infer CYTOSOL](./notebooks/03_infer_cytosol.ipynb)
   -  ### 9. [Infer LB](./notebooks/09_infer_lipid_bodies.ipynb)
-- Infer subcellular objects:
   -  ### 10. [batch process](./notebooks/10_batch_process.ipynb)
 
 - leverage [aics-segmenter]( https://allencell.org/segmenter ) `Workflows` paradigm (from [`aicssegmentation.workflow`](https://github.com/AllenCell/aics-segmentation) encode procedures as .json and execute programmically.
